@@ -36,8 +36,17 @@
         height: auto;
         padding: 100px 0;
     }
+}.height-500 {
+    height: 500px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    @media #{$sm-layout} {
+        height: auto;
+        padding: 100px 0;
+    }
 }
-
 
 .height-750 {
     height: 750px;

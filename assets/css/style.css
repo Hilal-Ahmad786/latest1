@@ -3,7 +3,7 @@
  CSS Index  
 ****************************
 /--- Default Styles -----/
-
+.height-650
 01.Variables
 02.Mixins
 03.Reset
@@ -167,6 +167,90 @@
   --h5: 18px;
   --h6: 16px;
 }
+
+
+
+.wrapiii {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttoniii {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #059DFF;
+  background: linear-gradient(#059DFF, #059DFF);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px #059DFF;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+  .wrapiii a::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(100px + 8px);
+  min-height: calc(100px + 8px);
+  border: 6px solid #059DFF;
+  box-shadow: 0 0 60px #059DFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.buttoniii:hover, .buttoniii:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.wrapiii a:hover::before, a:focus::before {
+  opacity: 1;
+}
+
+.wrapiii a::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #059DFF;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.wrapiii a:hover::after, a:focus::after {
+  animation: none;
+  display: none;
+}
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+
+
 
 /**
  * Reset Styels
@@ -14317,7 +14401,23 @@ iframe {
 .slider-dot.rainbow-slick-dot .slick-dots {
   bottom: 60px;
 }
-
+.height-400 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .height-400 {
+    height: auto;
+    padding: 150px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .height-400 {
+    height: auto;
+    padding: 150px 0;
+  }
+}
 .height-850 {
   height: 850px;
   display: flex;
@@ -15694,7 +15794,7 @@ body.active-light-mode [class*=col]:nth-child(3) .counter-style-2.color-variatio
   background-color: #eef2f3;
 }
 body.active-light-mode .service-wrapper > [class*=col]:nth-child(4) .service.service__style--1.icon-circle-style .icon {
-  background-color: #eb008b24;
+  background-color: #0000001a;
 }
 body.active-light-mode .logo a img.logo-light {
   display: none;
@@ -15703,10 +15803,10 @@ body.active-light-mode .rainbow-back-top i {
   color: #333;
 }
 body.active-light-mode .service-wrapper > [class*=col]:nth-child(5) .service.service__style--1.icon-circle-style .icon {
-  background-color: #009aff29;
+  background-color: #0000001a;
 }
 body.active-light-mode .service-wrapper > [class*=col]:nth-child(6) .service.service__style--1.icon-circle-style .icon {
-  background-color: #3000ff29;
+  background-color: #0000001a;
 }
 body.active-light-mode .bg-lessdark-gradient {
   background: #f5f8fa;
@@ -15728,15 +15828,15 @@ body.active-light-mode .envato-black {
 }
 
 body.active-light-mode .service.service__style--1.icon-circle-style .icon {
-  background-color: #059dff0f;
+  background-color: #0000001a;
 }
 
 body.active-light-mode .service-wrapper > [class*=col]:nth-child(2) .service.service__style--1.icon-circle-style .icon {
-  background-color: #fb53431a;
+  background-color: #0000001a;
 }
 
 body.active-light-mode .service-wrapper > [class*=col]:nth-child(3) .service.service__style--1.icon-circle-style .icon {
-  background-color: #6549d51f;
+  background-color: #0000001a;
 }
 
 body.active-light-mode .timeline-dot::after {
