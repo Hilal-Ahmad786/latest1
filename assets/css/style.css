@@ -18,6 +18,7 @@
 12.Text Animation
 13.Themebg
 
+
 /--- Header Styles -----/
 
 01.Headerdefault
@@ -58,21 +59,20 @@
 28.Backto Top
 29.About
 30.Newsletter
-
 /--- Blog -----/
 01.Blog
 02.Sidebar
 03.Blog Details
-
 /--- Footer -----/
 01.Footer
 02.Copyright
-
+.team-style-default .inner .content .title
 /--- Template -----/
 01.Banner
 02.Portfoliodetails
 03.Splash
 04.Lightmode
+.slider-style-4 .inner .title
 ***************************************/
 /**************************************
     Default Styles
@@ -198,8 +198,8 @@
   .wrapiii a::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(100px + 8px);
-  min-height: calc(100px + 8px);
+  min-width: calc(80px + 8px);
+  min-height: calc(80px + 8px);
   border: 6px solid #059DFF;
   box-shadow: 0 0 60px #059DFF;
   position: absolute;
@@ -10047,8 +10047,8 @@ a.btn-default.rounded-player,
 button.btn-default.rounded-player,
 div.btn-default.rounded-player {
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   padding: 0;
   line-height: 100px;
   font-size: 30px;
@@ -10067,7 +10067,7 @@ a.btn-default.rounded-player span i,
 button.btn-default.rounded-player span i,
 div.btn-default.rounded-player span i {
   position: relative;
-  top: 1px;
+  top: -13px;
   left: 2px;
 }
 a.btn-default.rounded-player.border,
@@ -11039,14 +11039,14 @@ div.btn-default.rounded-player.sm-size {
 }
 .rainbow-box-card .inner .content .title,
 .team-style-default .inner .content .title {
-  font-size: 34px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 700;
   margin-bottom: 6px;
 }
 .rainbow-box-card .inner .content .subtitle,
 .team-style-default .inner .content .subtitle {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.4;
   margin-bottom: 15px;
   display: inline-block;
@@ -15007,29 +15007,29 @@ iframe {
   font-family: var(--font-primary);
   margin-bottom: 25px;
   display: block;
-  font-size: 130px;
+  font-size: 100px;
   line-height: 1.1;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   color: var(--color-white);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-style-4 .inner .title {
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-style-4 .inner .title {
-    font-size: 100px;
+    font-size: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
   .slider-style-4 .inner .title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 575px) {
   .slider-style-4 .inner .title {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
 .slider-style-4 .inner .description {

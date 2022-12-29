@@ -25,8 +25,6 @@
     window.onload = () => {
         _waEmbed(wa_btnSetting);
     };
-</script>
-<script>
     function myFunction() {
         var dots = document.getElementById("dots");
         var moreText = document.getElementById("more");
@@ -42,7 +40,25 @@
             moreText.style.display = "inline";
         }
     }
+    function myFunctionn() {
+        var dots = document.getElementById("dotss");
+        var moreText = document.getElementById("moree");
+        var btnText = document.getElementById("myBtnn");
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        }
+        else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
 </script>
+
+
+
 
 <body class="active-light-mode">
     <main class="page-wrapper">
@@ -452,15 +468,16 @@
             <div class="container">
 
 
-                <div class="content">
+                <div class="content mt--30">
                     <h3 class="title">Mission</h3>
                 </div>
 
                 <div class="col-lg-12">
                     <p>Our mission is to provide free and no obligation expert consultancy to students who want to study
                         in Turkey. We aim to help students get into the best universities and maximize their
-                        opportunities by providing all support until they finish their studies.<span
-                            id="dots">...</span><span id="more">We are here to provide
+                        opportunities by providing all support until they finish their studies
+                        <span id="dots" >........</span>
+                        <span id="more" style="display: none;" >We are here to provide
                             you with information that will help you make informed decisions while considering studying
                             in
                             Turkey. We also recommend universities according to your academic background. Our process
@@ -496,8 +513,11 @@
                             patients with first-class treatment, excellent customer service and care that is second to
                             none.
                             Our mission is simple: To provide affordable healthcare solutions for everyone in
-                            need.</span></p>
-                    <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read more</button>
+                            need.</span>
+                    </p>
+                    
+                    
+                    <a class="btn-read-more"  ><span id="myBtn" onclick="myFunction()">Read more</span></a>
 
                 </div>
 
@@ -512,13 +532,16 @@
                     <h3 class="title">Vission</h3>
                 </div>
 
-                <div class="col-lg-12">
+                <div class="col-lg-12 mb--20">
                     <p>Our vision is to become a key player in the field of education and consultancy, connect smart and
                         ambitious students with universities in Turkey, help them receive international level education
                         at internationally recognized universities, and improve their chances of success throughout
-                        their future careers. We envision to have the first place in total quality and to be your first
+                        their future careers<span id="dotss" >........</span>
+                        <span id="moree" style="display: none;" > We envision to have the first place in total quality and to be your first
                         choice in education. We aim to be your trusted partner when it comes to medical procedures in
-                        Turkey where you do not need to worry about anything during your stay.</p>
+                        Turkey where you do not need to worry about anything during your stay.</span></p>
+                        <a class="btn-read-more"  ><span id="myBtnn" onclick="myFunctionn()">Read more</span></a>
+
                 </div>
             </div>
         </div>
