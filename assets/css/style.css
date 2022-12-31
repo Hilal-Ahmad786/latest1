@@ -20,13 +20,13 @@
 .my_switcher
 header-default
 /--- Header Styles -----/
-
+header-default
 01.Headerdefault
 02.Nav
 03.Header Top
 04.HeaderTopBar
 05.Mobilemenu
-
+height-650
 /--- Elements -----/
 
 01.Breadcrumb
@@ -14494,7 +14494,19 @@ iframe {
     padding: 100px 0;
   }
 }
-
+.height-500 {
+  height: 500px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .height-500 {
+    height: auto;
+    padding: 100px 0;
+  }
+}
 .height-750 {
   height: 750px;
   display: flex;
