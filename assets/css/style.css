@@ -18,7 +18,7 @@
 12.Text Animation
 13.Themebg
 .my_switcher
-
+header-default
 /--- Header Styles -----/
 
 01.Headerdefault
@@ -294,7 +294,20 @@ a {
   text-decoration: none;
   outline: none;
 }
-
+.stepsIcon{
+  color: var(--color-primary)!important;
+  transition: transform .2s;
+}
+.stepsIcon:hover{
+  color: var(--color-body)!important;
+  transform: scale(1.2);
+}
+#myBtnn{
+  color: var(--color-primary)!important;
+}
+#myBtn{
+  color: var(--color-primary)!important;
+}
 a:hover,
 a:focus,
 a:active {
@@ -9053,6 +9066,7 @@ xclip
   font-size: 12px;
   z-index: 99;
   position: relative;
+  height: 100px;
 }
 .header-default .logo a {
   display: flex;
