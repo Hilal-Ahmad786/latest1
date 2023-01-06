@@ -28,7 +28,7 @@ header-default
 05.Mobilemenu
 height-650
 /--- Elements -----/
-
+.rainbow-card .inner .content .title
 01.Breadcrumb
 02.Sectiontitle
 03.Button
@@ -13857,6 +13857,9 @@ iframe {
   margin-bottom: 0;
   margin-top: 15px;
   flex-basis: 100%;
+}
+.rainbow-card .inner .content .tit{
+  font-size: 14px !important;
 }
 .rainbow-card.card-list-view {
   height: 100%;
