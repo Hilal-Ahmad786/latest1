@@ -84,10 +84,15 @@ height-650
 .hovi:hover{
   background-color: green;
 }
-.tabiii.hover{
+.tabiii{
+  transition: transform .2s;
+}
+div ul li button.tabiii:hover{
   color: white!important;
   background-color: #059DFF!important;
+  transform: scale(1.05);
 }
+
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
