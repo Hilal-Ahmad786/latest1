@@ -79,8 +79,6 @@ height-650
     Default Styles
 ***************************************/
 
-height-650
-
 /*-- Custom --*/
 .hovi:hover{
   background-color: green;
@@ -100,6 +98,15 @@ th {
   background-color: #059DFF!important;
   color: white!important;
   padding: 20px !important;
+} 
+.MYopacity {
+  background: rgb(206, 208, 212, 0.85)!important;
+}
+.Mybox{
+  width: 150px;
+  height: 150px;
+  border: 0px solid red !important;
+  border-radius: 90% !important;
 }
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
