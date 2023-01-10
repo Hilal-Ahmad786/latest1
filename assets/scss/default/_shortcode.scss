@@ -3,6 +3,7 @@
 =================================*/
 
 /* 
+bg_image--30
 font-family: 'Inter', sans-serif;
 */
 
@@ -74,12 +75,16 @@ iframe {
 
 
 
-@for $i from 1 through 60 {
+@for $i from 1 through 99 {
     .bg_image--#{$i} {
         background-image: url(../images/bg/bg-image-#{$i}.webp);
     }
 }
-
+@for $i from 1 through 99 {
+    .bg_imagee--#{$i} {
+        background-image: url(../images/bg/private/bg-image-#{$i}.webp);
+    }
+}
 /* Height and width */
 .fullscreen {
     min-height: 100vh;
