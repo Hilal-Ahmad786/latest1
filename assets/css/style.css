@@ -73,6 +73,7 @@ height-650
 02.Portfoliodetails
 03.Splash
 04.Lightmode
+bg_image--
 .slider-style-4 .inner .title
 ***************************************/
 /**************************************
@@ -107,6 +108,12 @@ th {
   border: 0px solid red !important;
   border-radius: 90% !important;
 }
+.unilogooo{
+  width: 150px!important;
+  height: 150px!important;
+  padding: 5px!important;
+}
+
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
@@ -1551,9 +1558,498 @@ iframe {
   background-image: url(../images/bg/bg-image-29.jpg);
 }
 
-.bg_image--30 {
-  background-image: url(../images/bg/bg-image-30.jpg);
+.bg_image--31 {
+  background-image: url(../images/bg/unipho/altinUni/1.jpeg);
 }
+.bg_image--32 {
+  background-image: url(../images/bg/unipho/altinUni/2.jpeg);
+}
+.bg_image--33 {
+  background-image: url(../images/bg/unipho/altinUni/3.jpeg);
+}
+.bg_image--34 {
+  background-image: url(../images/bg/unipho/altinUni/4.jpeg);
+}
+.bg_image--35 {
+  background-image: url(../images/bg/unipho/altinUni/5.jpeg);
+}
+
+.bg_image--36 {
+  background-image: url(../images/bg/unipho/altinUni/6.jpeg);
+}
+.bg_image--37 {
+  background-image: url(../images/bg/unipho/altinUni/7.jpeg);
+}
+
+.bg_image--38 {
+  background-image: url(../images/bg/unipho/altinUni/8.jpeg);
+}
+.bg_image--39 {
+  background-image: url(../images/bg/unipho/altinUni/9.jpeg);
+}
+.bg_image--40 {
+  background-image: url(../images/bg/unipho/altinUni/10.jpeg);
+}
+
+.bg_image--41 {
+  background-image: url(../images/bg/unipho/ukuUki/1.jpeg);
+}
+.bg_image--42 {
+  background-image: url(../images/bg/unipho/ukuUki/2.jpeg);
+}
+.bg_image--43 {
+  background-image: url(../images/bg/unipho/ukuUki/3.jpeg);
+}
+.bg_image--44 {
+  background-image: url(../images/bg/unipho/ukuUki/4.jpeg);
+}
+.bg_image--45 {
+  background-image: url(../images/bg/unipho/ukuUki/5.jpeg);
+}
+
+.bg_image--46 {
+  background-image: url(../images/bg/unipho/ukuUki/6.jpeg);
+}
+.bg_image--47 {
+  background-image: url(../images/bg/unipho/ukuUki/7.jpeg);
+}
+
+.bg_image--48 {
+  background-image: url(../images/bg/unipho/ukuUki/8.jpeg);
+}
+.bg_image--49 {
+  background-image: url(../images/bg/unipho/ukuUki/9.jpeg);
+}
+.bg_image--50 {
+  background-image: url(../images/bg/unipho/ukuUki/10.jpeg);
+}
+.bg_image--51 {
+  background-image: url(../images/bg/unipho/yeniUni/1.jpeg);
+}
+.bg_image--52 {
+  background-image: url(../images/bg/unipho/yeniUni/2.jpeg);
+}
+.bg_image--53 {
+  background-image: url(../images/bg/unipho/yeniUni/3.jpeg);
+}
+.bg_image--54 {
+  background-image: url(../images/bg/unipho/yeniUni/4.jpeg);
+}
+.bg_image--55 {
+  background-image: url(../images/bg/unipho/yeniUni/5.jpeg);
+}
+
+.bg_image--56 {
+  background-image: url(../images/bg/unipho/yeniUni/6.jpeg);
+}
+.bg_image--57 {
+  background-image: url(../images/bg/unipho/yeniUni/7.jpeg);
+}
+
+.bg_image--58 {
+  background-image: url(../images/bg/unipho/yeniUni/8.jpeg);
+}
+.bg_image--59 {
+  background-image: url(../images/bg/unipho/yeniUni/9.jpeg);
+}
+.bg_image--60 {
+  background-image: url(../images/bg/unipho/yeniUni/10.jpeg);
+}
+.bg_image--61 {
+  background-image: url(../images/bg/unipho/yediUni/1.jpeg);
+}
+.bg_image--62 {
+  background-image: url(../images/bg/unipho/yediUni/2.jpeg);
+}
+.bg_image--63 {
+  background-image: url(../images/bg/unipho/yediUni/3.jpeg);
+}
+.bg_image--64 {
+  background-image: url(../images/bg/unipho/yediUni/4.jpeg);
+}
+.bg_image--65 {
+  background-image: url(../images/bg/unipho/yediUni/5.jpeg);
+}
+
+.bg_image--66 {
+  background-image: url(../images/bg/unipho/yediUni/6.jpeg);
+}
+.bg_image--67 {
+  background-image: url(../images/bg/unipho/yediUni/7.jpeg);
+}
+
+.bg_image--68 {
+  background-image: url(../images/bg/unipho/yediUni/8.jpeg);
+}
+.bg_image--69 {
+  background-image: url(../images/bg/unipho/yediUni/9.jpeg);
+}
+.bg_image--70 {
+  background-image: url(../images/bg/unipho/yediUni/10.jpeg);
+}
+.bg_image--71 {
+  background-image: url(../images/bg/unipho/ticaUni/1.jpeg);
+}
+.bg_image--72 {
+  background-image: url(../images/bg/unipho/ticaUni/2.jpeg);
+}
+.bg_image--73 {
+  background-image: url(../images/bg/unipho/ticaUni/3.jpeg);
+}
+.bg_image--74 {
+  background-image: url(../images/bg/unipho/ticaUni/4.jpeg);
+}
+.bg_image--75 {
+  background-image: url(../images/bg/unipho/ticaUni/5.jpeg);
+}
+
+.bg_image--76 {
+  background-image: url(../images/bg/unipho/ticaUni/6.jpeg);
+}
+.bg_image--77 {
+  background-image: url(../images/bg/unipho/ticaUni/7.jpeg);
+}
+
+.bg_image--78 {
+  background-image: url(../images/bg/unipho/ticaUni/8.jpeg);
+}
+.bg_image--79 {
+  background-image: url(../images/bg/unipho/ticaUni/9.jpeg);
+}
+.bg_image--80 {
+  background-image: url(../images/bg/unipho/okaUni/10.jpeg);
+}
+.bg_image--81 {
+  background-image: url(../images/bg/unipho/ozeUni/1.jpeg);
+}
+.bg_image--82 {
+  background-image: url(../images/bg/unipho/ozeUni/2.jpeg);
+}
+.bg_image--83 {
+  background-image: url(../images/bg/unipho/ozeUni/3.jpeg);
+}
+.bg_image--84 {
+  background-image: url(../images/bg/unipho/ozeUni/4.jpeg);
+}
+.bg_image--85 {
+  background-image: url(../images/bg/unipho/ozeUni/5.jpeg);
+}
+
+.bg_image--86 {
+  background-image: url(../images/bg/unipho/ozeUni/6.jpeg);
+}
+.bg_image--87 {
+  background-image: url(../images/bg/unipho/ozeUni/7.jpeg);
+}
+
+.bg_image--88 {
+  background-image: url(../images/bg/unipho/ozeUni/8.jpeg);
+}
+.bg_image--89 {
+  background-image: url(../images/bg/unipho/ozeUni/9.jpeg);
+}
+.bg_image--90 {
+  background-image: url(../images/bg/unipho/ozeUni/10.jpeg);
+}
+.bg_image--91 {
+  background-image: url(../images/bg/unipho/mediUni/1.jpeg);
+}
+.bg_image--92 {
+  background-image: url(../images/bg/unipho/mediUni/2.jpeg);
+}
+.bg_image--93 {
+  background-image: url(../images/bg/unipho/mediUni/3.jpeg);
+}
+.bg_image--94 {
+  background-image: url(../images/bg/unipho/mediUni/4.jpeg);
+}
+.bg_image--95 {
+  background-image: url(../images/bg/unipho/mediUni/5.jpeg);
+}
+
+.bg_image--96 {
+  background-image: url(../images/bg/unipho/mediUni/6.jpeg);
+}
+.bg_image--97 {
+  background-image: url(../images/bg/unipho/mediUni/7.jpeg);
+}
+
+.bg_image--98 {
+  background-image: url(../images/bg/unipho/mediUni/8.jpeg);
+}
+.bg_image--99 {
+  background-image: url(../images/bg/unipho/mediUni/9.jpeg);
+}
+.bg_image--100 {
+  background-image: url(../images/bg/unipho/mediUni/10.jpeg);
+}
+
+.bg_image--101 {
+  background-image: url(../images/bg/unipho/halUni/1.jpeg);
+}
+.bg_image--102 {
+  background-image: url(../images/bg/unipho/halUni/2.jpeg);
+}
+.bg_image--103 {
+  background-image: url(../images/bg/unipho/halUni/3.jpeg);
+}
+.bg_image--104 {
+  background-image: url(../images/bg/unipho/halUni/4.jpeg);
+}
+.bg_image--105 {
+  background-image: url(../images/bg/unipho/halUni/5.jpeg);
+}
+
+.bg_image--106 {
+  background-image: url(../images/bg/unipho/halUni/6.jpeg);
+}
+.bg_image--107 {
+  background-image: url(../images/bg/unipho/halUni/7.jpeg);
+}
+
+.bg_image--108 {
+  background-image: url(../images/bg/unipho/halUni/8.jpeg);
+}
+.bg_image--109 {
+  background-image: url(../images/bg/unipho/halUni/9.jpeg);
+}
+.bg_image--110 {
+  background-image: url(../images/bg/unipho/halUni/10.jpeg);
+}
+
+.bg_image--111 {
+  background-image: url(../images/bg/unipho/beyUni/1.jpeg);
+}
+.bg_image--112 {
+  background-image: url(../images/bg/unipho/beyUni/2.jpeg);
+}
+.bg_image--113 {
+  background-image: url(../images/bg/unipho/beyUni/3.jpeg);
+}
+.bg_image--114 {
+  background-image: url(../images/bg/unipho/beyUni/4.jpeg);
+}
+.bg_image--115 {
+  background-image: url(../images/bg/unipho/beyUni/5.jpeg);
+}
+
+.bg_image--116 {
+  background-image: url(../images/bg/unipho/beyUni/6.jpeg);
+}
+.bg_image--117 {
+  background-image: url(../images/bg/unipho/beyUni/7.jpeg);
+}
+
+.bg_image--118 {
+  background-image: url(../images/bg/unipho/beyUni/8.jpeg);
+}
+.bg_image--119 {
+  background-image: url(../images/bg/unipho/beyUni/9.jpeg);
+}
+.bg_image--120 {
+  background-image: url(../images/bg/unipho/beyUni/10.jpeg);
+}
+
+.bg_image--121 {
+  background-image: url(../images/bg/unipho/aydUni/1.jpeg);
+}
+.bg_image--122 {
+  background-image: url(../images/bg/unipho/aydUni/2.jpeg);
+}
+.bg_image--123 {
+  background-image: url(../images/bg/unipho/aydUni/3.jpeg);
+}
+.bg_image--124 {
+  background-image: url(../images/bg/unipho/aydUni/4.jpeg);
+}
+.bg_image--125 {
+  background-image: url(../images/bg/unipho/aydUni/5.jpeg);
+}
+
+.bg_image--126 {
+  background-image: url(../images/bg/unipho/aydUni/6.jpeg);
+}
+.bg_image--127 {
+  background-image: url(../images/bg/unipho/aydUni/7.jpeg);
+}
+
+.bg_image--128 {
+  background-image: url(../images/bg/unipho/aydUni/8.jpeg);
+}
+.bg_image--129 {
+  background-image: url(../images/bg/unipho/aydUni/9.jpeg);
+}
+.bg_image--130 {
+  background-image: url(../images/bg/unipho/aydUni/10.jpeg);
+}
+
+.bg_image--131 {
+  background-image: url(../images/bg/unipho/istinyeUni/1.jpeg);
+}
+.bg_image--132 {
+  background-image: url(../images/bg/unipho/istinyeUni/2.jpeg);
+}
+.bg_image--133 {
+  background-image: url(../images/bg/unipho/istinyeUni/3.jpeg);
+}
+.bg_image--134 {
+  background-image: url(../images/bg/unipho/istinyeUni/4.jpeg);
+}
+.bg_image--135 {
+  background-image: url(../images/bg/unipho/istinyeUni/5.jpeg);
+}
+
+.bg_image--136 {
+  background-image: url(../images/bg/unipho/istinyeUni/6.jpeg);
+}
+.bg_image--137 {
+  background-image: url(../images/bg/unipho/istinyeUni/7.jpeg);
+}
+
+.bg_image--138 {
+  background-image: url(../images/bg/unipho/istinyeUni/8.jpeg);
+}
+.bg_image--139 {
+  background-image: url(../images/bg/unipho/istinyeUni/9.jpeg);
+}
+.bg_image--140 {
+  background-image: url(../images/bg/unipho/istinyeUni/10.jpeg);
+}
+
+.bg_image--141 {
+  background-image: url(../images/bg/unipho/okaUni/1.jpeg);
+}
+.bg_image--142 {
+  background-image: url(../images/bg/unipho/okaUni/2.jpeg);
+}
+.bg_image--143 {
+  background-image: url(../images/bg/unipho/okaUni/3.jpeg);
+}
+.bg_image--144 {
+  background-image: url(../images/bg/unipho/okaUni/4.jpeg);
+}
+.bg_image--145 {
+  background-image: url(../images/bg/unipho/okaUni/5.jpeg);
+}
+
+.bg_image--146 {
+  background-image: url(../images/bg/unipho/okaUni/6.jpeg);
+}
+.bg_image--147 {
+  background-image: url(../images/bg/unipho/okaUni/7.jpeg);
+}
+
+.bg_image--148 {
+  background-image: url(../images/bg/unipho/okaUni/8.jpeg);
+}
+.bg_image--149 {
+  background-image: url(../images/bg/unipho/okaUni/9.jpeg);
+}
+.bg_image--150 {
+  background-image: url(../images/bg/unipho/okaUni/10.jpeg);
+}
+
+.bg_image--151 {
+  background-image: url(../images/bg/unipho/ticaUni/1.jpeg);
+}
+.bg_image--152 {
+  background-image: url(../images/bg/unipho/ticaUni/2.jpeg);
+}
+.bg_image--153 {
+  background-image: url(../images/bg/unipho/ticaUni/3.jpeg);
+}
+.bg_image--154 {
+  background-image: url(../images/bg/unipho/ticaUni/4.jpeg);
+}
+.bg_image--155 {
+  background-image: url(../images/bg/unipho/ticaUni/5.jpeg);
+}
+
+.bg_image--156 {
+  background-image: url(../images/bg/unipho/ticaUni/6.jpeg);
+}
+.bg_image--157 {
+  background-image: url(../images/bg/unipho/ticaUni/7.jpeg);
+}
+
+.bg_image--158 {
+  background-image: url(../images/bg/unipho/ticaUni/8.jpeg);
+}
+.bg_image--159 {
+  background-image: url(../images/bg/unipho/ticaUni/9.jpeg);
+}
+.bg_image--160 {
+  background-image: url(../images/bg/unipho/ticaUni/10.jpeg);
+}
+
+.bg_image--161 {
+  background-image: url(../images/bg/unipho/halUni/1.jpeg);
+}
+.bg_image--162 {
+  background-image: url(../images/bg/unipho/halUni/2.jpeg);
+}
+.bg_image--163 {
+  background-image: url(../images/bg/unipho/halUni/3.jpeg);
+}
+.bg_image--164 {
+  background-image: url(../images/bg/unipho/halUni/4.jpeg);
+}
+.bg_image--165 {
+  background-image: url(../images/bg/unipho/halUni/5.jpeg);
+}
+
+.bg_image--166 {
+  background-image: url(../images/bg/unipho/halUni/6.jpeg);
+}
+.bg_image--167 {
+  background-image: url(../images/bg/unipho/halUni/7.jpeg);
+}
+
+.bg_image--168 {
+  background-image: url(../images/bg/unipho/halUni/8.jpeg);
+}
+.bg_image--169 {
+  background-image: url(../images/bg/unipho/halUni/9.jpeg);
+}
+.bg_image--170 {
+  background-image: url(../images/bg/unipho/halUni/10.jpeg);
+}
+
+
+
+.bg_image--171 {
+  background-image: url(../images/bg/unipho/gelUni/1.jpeg);
+}
+.bg_image--172 {
+  background-image: url(../images/bg/unipho/gelUni/2.jpeg);
+}
+.bg_image--173 {
+  background-image: url(../images/bg/unipho/gelUni/3.jpeg);
+}
+.bg_image--174 {
+  background-image: url(../images/bg/unipho/gelUni/4.jpeg);
+}
+.bg_image--175 {
+  background-image: url(../images/bg/unipho/gelUni/5.jpeg);
+}
+
+.bg_image--176 {
+  background-image: url(../images/bg/unipho/gelUni/6.jpeg);
+}
+.bg_image--177 {
+  background-image: url(../images/bg/unipho/gelUni/7.jpeg);
+}
+
+.bg_image--178 {
+  background-image: url(../images/bg/unipho/gelUni/8.jpeg);
+}
+.bg_image--179 {
+  background-image: url(../images/bg/unipho/gelUni/9.jpeg);
+}
+.bg_image--180 {
+  background-image: url(../images/bg/unipho/gelUni/10.jpeg);
+}
+
 
 /* Height and width */
 .fullscreen {
